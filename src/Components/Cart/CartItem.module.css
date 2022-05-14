@@ -1,0 +1,48 @@
+.cart-item{
+    border: none;
+    border-bottom: 2px solid brown;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item h2{
+    font-size: 1.1rem;
+    color: rgb(58, 53, 53);
+}
+
+.summary{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    color: rgb(133, 48, 48);
+    margin-right: 5rem;
+}
+.amount{
+    color: rgb(46, 42, 42);
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 4px;
+}
+
+.actions button{
+
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid brown;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 30px;
+}
+
+.actions button:hover,
+.actions button:active{
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,50 @@
+.cart-itmes{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+    max-height: 40vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 5rem;
+}
+
+.action{
+    display: flex;
+    justify-content: end;
+    margin-top: 14px;
+
+}
+
+.close-btn{
+    margin-right: 10px;
+    border : 1px solid brown;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:active{
+    background-color: brown;
+    color: white;
+}
+.order-btn{
+
+    margin-left: 10px;
+    background-color: brown;
+    font-size: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 4px 10px;
+    border: none;
+}
